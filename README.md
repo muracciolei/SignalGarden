@@ -42,7 +42,7 @@ The app is configured for GitHub Pages at:
 https://muracciolei.github.io/SignalGarden/
 ```
 
-Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the Vite app and deploys `dist` through GitHub Pages.
+Pushes to `main` trigger `.github/workflows/deploy.yml`, which builds the Vite app and publishes `dist` to the `gh-pages` branch. In repository settings, set GitHub Pages to deploy from the `gh-pages` branch at `/`.
 
 ## Project Structure
 
